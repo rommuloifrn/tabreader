@@ -18,15 +18,22 @@
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="47dp"
             android:text="20 de agosto de 2025" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="409dp"
+            android:text="A técnica “ZeroSearch” permite treinar LLMs para realizarem buscas sem interagir com mecanismos como Google ou Bing durante o treinamento. A abordagem busca reduzir significativamente os custos associados ao uso de APIs externas, ao mesmo tempo em que mantém — e até supera — a qualidade das respostas.  O método consiste em ensinar o modelo, por meio de exemplos, a gerar documentos relevantes e irrelevantes com base em uma pergunta. Esse processo transforma o LLM em um mecanismo de busca simulado, capaz de avaliar o que constitui uma boa ou má resposta com base em seu conhecimento prévio adquirido durante o pré-treinamento. Em seguida, entra em ação o aprendizado por reforço, no qual o próprio modelo gera os documentos de forma simulada, sem recorrer a fontes externas.  Para isso, os pesquisadores utilizam uma estratégia chamada “curriculum-based rollout”, na qual o modelo começa aprendendo com documentos de alta qualidade — gerados por ele mesmo — e, progressivamente, recebe textos de qualidade inferior. Isso ajuda o modelo a refinar sua capacidade de identificar conteúdos relevantes, aprimorando sua habilidade de busca de forma autônoma." />
+
     </LinearLayout>
 
     <TextView
         android:id="@+id/textView2"
         android:layout_width="340dp"
         android:layout_height="77dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:text="Pathfinding com labirinto dinâmico: Autômatos Celulares + Árvores na prática!"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
